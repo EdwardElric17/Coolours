@@ -10,9 +10,7 @@ body {
   display: flex;
 }
 body .col {
-  border: 1px solid black;
   flex: 1;
-  background: #7e7e7e;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -29,6 +27,7 @@ body .col h2:hover {
   cursor: pointer;
 }
 body .col button {
+  outline: none;
   border: none;
   background: transparent;
   font-size: 1.5rem;
